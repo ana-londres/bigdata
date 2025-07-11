@@ -1,4 +1,4 @@
--- FAZER OS COMENTÁRIOS DOS ERROS
+-- Atividade 1 - Ana Luísa Londres - 20220060649
 
 -- a) OK
 INSERT INTO EMPREGADO

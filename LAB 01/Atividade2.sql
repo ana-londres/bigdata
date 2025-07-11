@@ -1,3 +1,5 @@
+-- Atividade 2 - Ana Luísa Londres - 20220060649
+
 -- a)
 SELECT essn AS ssn, nomedep, parentesco
 FROM DEPENDENTE

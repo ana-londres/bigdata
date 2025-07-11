@@ -1,3 +1,5 @@
+-- Atividade 3 - Ana Luísa Londres - 20220060649
+
 -- a)
 SELECT E.ssn, E.pnome || ' ' || E.unome AS nome_completo
 FROM EMPREGADO E
@@ -21,11 +23,9 @@ WHERE superssn = (
 -- d)
 SELECT DISTINCT P.pnumero, P.pjnome
 FROM PROJETO P
-JOIN DEPARTAMENTO D ON P.dnum = D.dnumero
-JOIN EMPREGADO E1 ON D.gerssn = E1.ssn
-LEFT JOIN TRABALHA T ON P.pnumero = T.pno
-LEFT JOIN EMPREGADO E2 ON T.essn = E2.ssn
-WHERE E1.unome = 'Will' OR E2.unome = 'Will';
+JOIN TRABALHA T ON P.pnumero = T.pno
+JOIN EMPREGADO E ON T.essn = E.ssn
+WHERE E.unome = 'Will'
 
 -- e)
 SELECT DISTINCT E.pnome, E.unome
