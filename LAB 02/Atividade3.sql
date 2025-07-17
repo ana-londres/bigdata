@@ -1,3 +1,5 @@
+-- Atividade 3 - Lab 02 - Ana Luísa Londres - 20220060649
+
 -- Usando o código de empresa_dump_pg.sql
 
 -- 3 - SUBCONSULTAS

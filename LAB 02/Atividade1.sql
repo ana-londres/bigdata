@@ -1,3 +1,5 @@
+-- Atividade 1 - Lab 02 - Ana Luísa Londres - 20220060649
+
 -- Questão:
 CREATE TABLE TABELA_A (
   CODIGO INTEGER PRIMARY KEY,

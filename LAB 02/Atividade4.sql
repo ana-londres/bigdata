@@ -1,3 +1,5 @@
+-- Atividade 4 - Lab 02 - Ana Luísa Londres - 20220060649
+
 -- Usando o código de empresa_dump_pg.sql
 
 -- 4 - VISÕES
