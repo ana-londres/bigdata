@@ -47,8 +47,8 @@ CREATE INDEX idx_aluno_disciplinas_gin ON aluno USING GIN (disciplinas);
 
 
 -- g)
--- B-tree em 'data_ingresso', por ser indicado para buscas por intervalo de datas, que tendem a ser sequenciais
-CREATE INDEX idx_aluno_data_ingresso ON aluno(data_ingresso);
+-- BRIN em 'data_ingresso', por ser indicado para tabelas com alto volume e com coluna ordenada cronologicamente, com consulta por intervalo de datas
+CREATE INDEX idx_data_ingresso_brin ON aluno USING BRIN (data_ingresso);
 
 
 -- h)
